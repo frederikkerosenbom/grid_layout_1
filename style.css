@@ -14,17 +14,7 @@ img {
 @media (min-width: 768px) {
   body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
   }
-}
-
-.tekst {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-.billede {
-  grid-column-start: 2;
-  grid-column-end: 3;
 }
